@@ -17,7 +17,6 @@
   <body>
 
 <%
-
     String referer = request.getHeader("Referer");
 
     if(referer==null||referer.trim().length()==0||
